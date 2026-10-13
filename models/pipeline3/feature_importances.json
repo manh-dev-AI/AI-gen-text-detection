@@ -1,0 +1,202 @@
+[
+  {
+    "Feature": "svd_dim_28",
+    "Importance": 334
+  },
+  {
+    "Feature": "svd_dim_8",
+    "Importance": 318
+  },
+  {
+    "Feature": "newline_density",
+    "Importance": 306
+  },
+  {
+    "Feature": "svd_dim_4",
+    "Importance": 270
+  },
+  {
+    "Feature": "svd_dim_0",
+    "Importance": 257
+  },
+  {
+    "Feature": "svd_dim_10",
+    "Importance": 239
+  },
+  {
+    "Feature": "std_sent_len",
+    "Importance": 222
+  },
+  {
+    "Feature": "avg_sent_len",
+    "Importance": 213
+  },
+  {
+    "Feature": "svd_dim_25",
+    "Importance": 207
+  },
+  {
+    "Feature": "comma_density",
+    "Importance": 207
+  },
+  {
+    "Feature": "svd_dim_26",
+    "Importance": 200
+  },
+  {
+    "Feature": "svd_dim_29",
+    "Importance": 182
+  },
+  {
+    "Feature": "svd_dim_19",
+    "Importance": 181
+  },
+  {
+    "Feature": "svd_dim_21",
+    "Importance": 179
+  },
+  {
+    "Feature": "svd_dim_6",
+    "Importance": 174
+  },
+  {
+    "Feature": "svd_dim_22",
+    "Importance": 172
+  },
+  {
+    "Feature": "std_word_len",
+    "Importance": 172
+  },
+  {
+    "Feature": "svd_dim_27",
+    "Importance": 168
+  },
+  {
+    "Feature": "svd_dim_5",
+    "Importance": 168
+  },
+  {
+    "Feature": "svd_dim_12",
+    "Importance": 150
+  },
+  {
+    "Feature": "svd_dim_18",
+    "Importance": 150
+  },
+  {
+    "Feature": "svd_dim_16",
+    "Importance": 147
+  },
+  {
+    "Feature": "svd_dim_2",
+    "Importance": 143
+  },
+  {
+    "Feature": "svd_dim_9",
+    "Importance": 138
+  },
+  {
+    "Feature": "avg_word_len",
+    "Importance": 137
+  },
+  {
+    "Feature": "svd_dim_1",
+    "Importance": 135
+  },
+  {
+    "Feature": "svd_dim_24",
+    "Importance": 134
+  },
+  {
+    "Feature": "svd_dim_23",
+    "Importance": 134
+  },
+  {
+    "Feature": "svd_dim_7",
+    "Importance": 133
+  },
+  {
+    "Feature": "modal_verb_density",
+    "Importance": 132
+  },
+  {
+    "Feature": "svd_dim_3",
+    "Importance": 128
+  },
+  {
+    "Feature": "belief_density",
+    "Importance": 127
+  },
+  {
+    "Feature": "svd_dim_17",
+    "Importance": 126
+  },
+  {
+    "Feature": "quote_density",
+    "Importance": 123
+  },
+  {
+    "Feature": "svd_dim_13",
+    "Importance": 112
+  },
+  {
+    "Feature": "short_word_ratio",
+    "Importance": 101
+  },
+  {
+    "Feature": "svd_dim_11",
+    "Importance": 99
+  },
+  {
+    "Feature": "contraction_density",
+    "Importance": 98
+  },
+  {
+    "Feature": "long_word_ratio",
+    "Importance": 96
+  },
+  {
+    "Feature": "first_person_density",
+    "Importance": 93
+  },
+  {
+    "Feature": "svd_dim_20",
+    "Importance": 92
+  },
+  {
+    "Feature": "svd_dim_15",
+    "Importance": 80
+  },
+  {
+    "Feature": "transition_density",
+    "Importance": 78
+  },
+  {
+    "Feature": "digit_density",
+    "Importance": 73
+  },
+  {
+    "Feature": "question_density",
+    "Importance": 70
+  },
+  {
+    "Feature": "exclamation_density",
+    "Importance": 68
+  },
+  {
+    "Feature": "uppercase_ratio",
+    "Importance": 64
+  },
+  {
+    "Feature": "semicolon_colon_density",
+    "Importance": 63
+  },
+  {
+    "Feature": "svd_dim_14",
+    "Importance": 62
+  },
+  {
+    "Feature": "dash_density",
+    "Importance": 42
+  }
+]

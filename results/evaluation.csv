@@ -1,0 +1,4 @@
+pipeline,model,macro_f1,ai_precision,ai_recall,pr_auc,latency_ms,model_size_mb,notes
+Pipeline 1,Linear SVM (Word TF-IDF),0.999297,0.999632,0.998604,0.999995,1.77,2.70,"Baseline Unigram + Bigram, chạy được offline trên Chrome Extension"
+Pipeline 2,Linear SVM (Word + Char TF-IDF),0.999590,0.999706,0.999265,0.999995,72.82,4.10,"Bắt hình thái từ và phong cách ký tự vi mô, độ chính xác cao nhất"
+Pipeline 3,LightGBM (Stylometry + LSA SVD),0.992849,0.994304,0.987729,0.999358,3.12,0.85,"20 đặc trưng phong cách ngôn ngữ + 30 chiều LSA, giải thích được mô hình"

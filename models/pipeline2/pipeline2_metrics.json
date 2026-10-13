@@ -1,0 +1,41 @@
+[
+  {
+    "Model":"Linear SVM (LinearSVC)",
+    "Accuracy":0.9996169369,
+    "Macro-F1":0.9995901986,
+    "AI Precision":0.9997059472,
+    "AI Recall":0.9992651922,
+    "AI F1":0.9994855211,
+    "Human F1":0.9996948761,
+    "ROC-AUC":0.9999969616,
+    "PR-AUC":0.9999946985,
+    "Train Time (s)":306.31,
+    "Latency (ms\/1k)":72.82
+  },
+  {
+    "Model":"Logistic Regression (L2)",
+    "Accuracy":0.9977016212,
+    "Macro-F1":0.9975397907,
+    "AI Precision":0.9985256174,
+    "AI Recall":0.9952972298,
+    "AI F1":0.9969088099,
+    "Human F1":0.9981707715,
+    "ROC-AUC":0.9998521647,
+    "PR-AUC":0.9998036048,
+    "Train Time (s)":31.34,
+    "Latency (ms\/1k)":9.87
+  },
+  {
+    "Model":"SGDClassifier (Log Loss)",
+    "Accuracy":0.9965661126,
+    "Macro-F1":0.9963220875,
+    "AI Precision":0.9984842323,
+    "AI Recall":0.9922845176,
+    "AI F1":0.9953747213,
+    "Human F1":0.9972694538,
+    "ROC-AUC":0.9997651729,
+    "PR-AUC":0.9996868156,
+    "Train Time (s)":11.11,
+    "Latency (ms\/1k)":12.87
+  }
+]
