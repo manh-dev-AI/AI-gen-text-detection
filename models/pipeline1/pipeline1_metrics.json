@@ -1,0 +1,67 @@
+[
+  {
+    "Model":"Linear SVM (LinearSVC)",
+    "Accuracy":0.9993433203,
+    "Macro-F1":0.9992973992,
+    "AI Precision":0.9996322177,
+    "AI Recall":0.9986038651,
+    "AI F1":0.9991177768,
+    "Human F1":0.9994770216,
+    "ROC-AUC":0.9999969252,
+    "PR-AUC":0.9999947488,
+    "Train Time (s)":6.44,
+    "Latency (ms\/1k)":1.77
+  },
+  {
+    "Model":"PyTorch Logistic (GPU)",
+    "Accuracy":0.9979752377,
+    "Macro-F1":0.9978321512,
+    "AI Precision":0.9994833567,
+    "AI Recall":0.9950767874,
+    "AI F1":0.9972752044,
+    "Human F1":0.9983890981,
+    "ROC-AUC":0.9999581899,
+    "PR-AUC":0.9999334969,
+    "Train Time (s)":157.94,
+    "Latency (ms\/1k)":15.0
+  },
+  {
+    "Model":"Logistic Regression",
+    "Accuracy":0.9976879404,
+    "Macro-F1":0.9975243833,
+    "AI Precision":0.9992616929,
+    "AI Recall":0.9945256815,
+    "AI F1":0.9968880623,
+    "Human F1":0.9981607044,
+    "ROC-AUC":0.9998912976,
+    "PR-AUC":0.999843279,
+    "Train Time (s)":3.37,
+    "Latency (ms\/1k)":1.01
+  },
+  {
+    "Model":"SGDClassifier (Log Loss)",
+    "Accuracy":0.9940488405,
+    "Macro-F1":0.9936198399,
+    "AI Precision":0.9973999926,
+    "AI Recall":0.9865897568,
+    "AI F1":0.9919654236,
+    "Human F1":0.9952742561,
+    "ROC-AUC":0.9996243101,
+    "PR-AUC":0.9994910164,
+    "Train Time (s)":1.77,
+    "Latency (ms\/1k)":1.38
+  },
+  {
+    "Model":"Multinomial Naive Bayes",
+    "Accuracy":0.9804911417,
+    "Macro-F1":0.9790609834,
+    "AI Precision":0.9816613132,
+    "AI Recall":0.9656477331,
+    "AI F1":0.9735886798,
+    "Human F1":0.9845332871,
+    "ROC-AUC":0.9978326336,
+    "PR-AUC":0.9967161529,
+    "Train Time (s)":0.26,
+    "Latency (ms\/1k)":4.54
+  }
+]

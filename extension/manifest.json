@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "AI Text Detector (Offline)",
+  "version": "1.0.0",
+  "description": "Phát hiện văn bản AI bằng Word TF-IDF + Linear SVM chạy trực tiếp 100% trong trình duyệt.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ]
+}

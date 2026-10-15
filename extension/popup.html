@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Text Detector</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">OFFLINE AI DETECTOR</p>
+          <h1>Kiểm tra văn bản</h1>
+        </div>
+        <span class="model-badge">100% In-Browser</span>
+      </header>
+
+      <p class="model-detail">Word TF-IDF + Linear SVM · Chạy trực tiếp, không cần server</p>
+
+      <label for="text-input">Văn bản cần phân tích</label>
+      <textarea id="text-input" rows="8" maxlength="100000" placeholder="Bôi đen một đoạn trên trang web, hoặc dán văn bản vào đây (tiếng Anh)."></textarea>
+      <p id="character-count" class="character-count">0 ký tự · Tối thiểu 20 ký tự</p>
+
+      <div class="button-row">
+        <button id="capture-selection" class="secondary" type="button">Lấy phần bôi đen</button>
+        <button id="analyze" type="button">Phân tích</button>
+      </div>
+
+      <section id="result" class="result idle" aria-live="polite" aria-atomic="true">
+        <p id="result-title" class="result-title">Sẵn sàng phân tích</p>
+        <p id="result-detail" class="result-detail">Bôi đen văn bản trên trang web hoặc dán ít nhất 20 ký tự vào ô trên rồi bấm Phân tích.</p>
+        <p id="result-meta" class="result-meta"></p>
+      </section>
+
+      <p class="disclaimer">Kết quả là hỗ trợ tham khảo, không phải bằng chứng chắc chắn về tác giả văn bản.</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

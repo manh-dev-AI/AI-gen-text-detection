@@ -1,0 +1,63 @@
+# ==============================================================================
+# DỮ LIỆU LỚN (DATASETS - KHÔNG ĐƯỢC PUSH LÊN GITHUB VÌ VƯỢT QUÁ GIỚI HẠN 100MB)
+# ==============================================================================
+data/*.csv
+data/**/*.csv
+data/*.zip
+data/*.tar.gz
+data/*.7z
+data/*.parquet
+data/processed/*
+!data/processed/.gitkeep
+
+# ==============================================================================
+# MODEL CHECKPOINTS NẶNG (DEEP LEARNING / TRANSFORMERS > 100MB)
+# ==============================================================================
+models/**/*.pt
+models/**/*.pth
+models/**/*.bin
+models/**/*.onnx
+models/**/*.h5
+models/**/*.safetensors
+# Lưu ý: Các file model scikit-learn (.joblib) của Pipeline 1 và 2 chỉ khoảng 2-5MB,
+# NÊN PUSH lên GitHub để khi clone về có thể chạy ngay API và Chrome Extension!
+
+# ==============================================================================
+# MÔI TRƯỜNG ẢO (VIRTUAL ENVIRONMENTS)
+# ==============================================================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / Cache của Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================================================================
+# JUPYTER NOTEBOOKS CHECKPOINTS
+# ==============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*-checkpoint.ipynb
+
+# ==============================================================================
+# CẤU HÌNH IDE & HỆ ĐIỀU HÀNH
+# ==============================================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================================================================
+# LOGS & FILE TẠM
+# ==============================================================================
+*.log
+*.tmp
